@@ -289,7 +289,7 @@ void help()
 void version()
 {
     // Last version was unfortunately lost
-    printf("Tessera version 0.0.2\n");
+    printf("Tessera version 2.0\n");
     exit(0);
 }
 

@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Files and Functionality](#files-and-functionality)
+  - [Important Note](#important_note)
   - [Windows](#windows)
   - [MacOS](#macos)
   - [Linux](#linux)
@@ -14,6 +15,13 @@
 - [Usage examples](#usage-examples)
 
 ### [Installation](#installation)
+### [Important Note](#important_note)
+
+    If dealing with compilation feels like a hassle, don't worry. You've got a shortcut. Download the ZIP file, extract it, and move it to the Program Files folder. 
+    To make sure Tessera runs smoothly from any command line, you'll need to add it to your system's PATH. Don't sweat if you're not sure how to do that—there are 
+    step-by-step instructions on adding to the PATH further down in this document. This way, you can bypass the whole compilation process, 
+    including the bits about MinGW and GCC, and dive right into using Tessera.
+  
 ### [Windows](#windows)
 
     1. **Download the Source Code**
@@ -37,9 +45,12 @@
        - This command creates `tessera.exe`, the executable file.
 
     4. **Add Tessera to System PATH**
-       - Access "Environment Variables" through system settings.
-       - Add the directory containing `tessera.exe` to the `PATH` variable.
-       - This allows you to run Tessera from any command prompt or PowerShell window.
+       - If you downloaded the ZIP file version of the code make sure you extract it and rename the extracted file to "Tessera" 
+         and - Optionally - put it in the Program Files folders in the C Drive. 
+       - through system settings, search for "Environment Variables" and access it.
+       - Double click the PATH entry and add the directory containing `tessera.exe` to the `PATH` variable.
+       
+       This allows you to run Tessera from any command prompt or PowerShell window.
 
     5. **Running Tessera**
        - Open a new Command Prompt or PowerShell window.
